@@ -1,0 +1,26 @@
+{
+    "name": "eluminatis/assinatura",
+    "description": "Comando do Artisan para assinar trabalhos entregues",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "André Luiz Girol",
+            "email": "andregirol@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Eluminatis\\Assinatura\\" : "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Eluminatis\\Assinatura\\EluminatisServiceProvider"
+          ]
+        }
+    }
+}
